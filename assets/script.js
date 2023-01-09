@@ -47,6 +47,10 @@ function updateProgressbar() {
 
 }
 
+function submitFun() {
+    alert ("Application Submitted Succesfully");
+}
+
 const realFileBtn = document.getElementById("real-file");
 const customBtn = document.getElementById("custom-button");
 const customTxt = document.getElementById("custom-text");
