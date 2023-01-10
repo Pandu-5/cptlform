@@ -748,32 +748,6 @@ input {
         margin-top: 70px;
     }
 
-    #progressbar-1 {
-        display: none;
-    }
-
-    #progressbar-1 li:before {
-        width: 30px;
-        height: 30px;
-    }
-
-    #progressbar-1 li:after {
-        position: absolute;
-        top: 19px;
-    }
-
-    #progressbar-1 li {
-        font-size: 10px;
-    }
-
-    .progress-step::after {
-        content: attr(data-title);
-        position: absolute;
-        top: calc(100% + 0.5rem);
-        font-size: 0.45rem;
-        color: #666;
-    }
-
     .form-step .input-group {
         flex-direction: column;
     }
