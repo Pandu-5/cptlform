@@ -751,7 +751,7 @@ input {
     .form-step .input-group {
         flex-direction: column;
     }
-    
+
     #progressbar-1 {
         display: none;
     }
