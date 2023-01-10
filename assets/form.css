@@ -503,6 +503,7 @@ input {
 .progress-step::after {
     content: attr(data-title);
     position: absolute;
+    width: 70px;
     top: calc(100% + 0.5rem);
     font-size: 0.75rem;
     color: #666;
@@ -555,7 +556,7 @@ input {
 .form-step h4 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     font-size: 20px;
     font-weight: 500;
 }
@@ -563,14 +564,14 @@ input {
 .form-step .input-group {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: row;
 }
 
 .form-step .extra {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: row;
 }
 
@@ -734,6 +735,14 @@ input {
 }
 
 @media (max-width: 500px) {
+    .sideBar {
+        width: 50px;
+        padding: 5px 8px;
+    }
+
+    .sideBar li {
+        margin: 3px -5px;
+    }
 
     .header .logo i {
         display: none;
