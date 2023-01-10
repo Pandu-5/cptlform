@@ -572,10 +572,15 @@ input {
     flex-direction: row;
 }
 
+.form-step .input-group label {
+    width: 180px;
+}
+
 .form-step .input-group select {
+    width: 200px;
     border: 2px solid #ADADAD;
     border-radius: 6px;
-    padding: 10px 35px;
+    padding: 10px 15px;
 }
 
 .form-step .input-group select option {
@@ -723,10 +728,6 @@ input {
         margin-left: 70px;
     }
 
-    .form-step .input-group select {
-        padding: 8px 25px;
-    }
-
     #progressbar-1 li:before {
         width: 30px;
         height: 30px;
@@ -747,6 +748,10 @@ input {
         top: calc(100% + 0.5rem);
         font-size: 0.45rem;
         color: #666;
+    }
+
+    .form-step .input-group {
+        flex-direction: column;
     }
 
 
@@ -776,30 +781,10 @@ input {
         margin-left: 50px;
     }
 
-    .form-step .input-group select {
-        padding: 6px 18px;
-    }
-
-    .form-step .input-group label {
-        font-size: 10px;
-    }
-
-    .input-group {
-        margin: 0.6rem 0;
-    }
-
 }
 
 @media (max-width: 388px) {
-    .form-step .input-group label {
-        font-size: 15px;
-        margin-right: 5px;
-    }
-
-    .form-step .input-group select {
-        padding: 6px 15px;
-    }
-
+    
     .btn {
         padding: 0.5rem;
         width: 50%;
